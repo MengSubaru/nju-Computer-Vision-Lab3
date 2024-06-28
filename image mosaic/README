@@ -1,0 +1,9 @@
+首先请准备可以运行matlab文件的环境；
+
+测试图像拼接任务请执行test_for_img_mosaic.m脚本文件，并注意调整读入的图像名称；
+
+测试图像嵌入任务请执行test_for_img_embedding.m脚本文件；
+
+测试2.(1)节的任务请调用automatic_test_for_img_mosaic.m脚本文件，并注意阅读注释配置vlfeat的函数库，否则会因无法找到相关函数而报错；
+
+测试2.(2)节的任务请调用automatic_test_for_img_mosaic.m脚本文件，并注意阅读注释更改vl_ubcmatch()函数的第三个参数和选用RANSAC作为计算单应性矩阵的函数而非homography_matrix()。
